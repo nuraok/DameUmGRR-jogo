@@ -7,19 +7,26 @@
     <title>DeMeUmGrr"</title>
     <link rel="stylesheet" href="dist/output.css">
 </head>
-<script src="codex.js"></script>
 <body>
     <div class="flex flex-row w-screen h-screen">
-        <main class="h-full w-[70%] bg-amber-950">
-            
+        <main class="h-full w-[70%] bg-amber-950 flex flex-col gap-20 justify-center items-center">
+            <h2 id="FlowerSeg" class="font-pixel text-white text-[10px] bg-black border-2 border-white p-4"></h2>
+            <button id="btnFlowery" class="bg-[url('../img/floweryButton.png')] bg-center bg-size-[152px_456px] bg-no-repeat h-116 w-40 [image-rendering:pixelated]"></button>
         </main>
         
         <aside class="h-full w-[30%] bg-amber-300">
-            
+            <section class="w-full h-20 bg-gray-500 flex flex-row gap-10 p-4 text-2xl font-pixel justify-center items-center">
+                <h2>Suas flores:</h2>
+                <p id="flowers">0</p>
+            </section>
+            <section id="flowerShop" class="grid grid-cols-1">
+                <div class=""></div>
+            </section>
         </aside>
     </div>
-
-
+    
+    
+    <script src="codex.js"></script>
 </body>
 
 </html>
